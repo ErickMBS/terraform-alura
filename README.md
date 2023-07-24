@@ -12,7 +12,7 @@ Gerenciar a infraestrutura Web sem ser dependente da plataforma escolhida.
 
 A chave pode ser criada com o comando '`sh-keygen -f terraform-aws -t rsa`'
 
-## Primeiros passos
+## Deploy e Comandous Terraform
 - Na primeira execução é necessário utilizar o seguinte comando para que ele possa baixar as dependências:
     - `terraform init`
 
@@ -22,3 +22,5 @@ A chave pode ser criada com o comando '`sh-keygen -f terraform-aws -t rsa`'
 - E por fim, para realmente aplicar as configurações e criar os recursos desejados executar o comando:
     - `terraform apply`
 
+- Comando útil para ter uma 'foto' do ambiente:
+    - `terraform show`
